@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- шапка сайта. первый блок -->
     <header class="header">
       <div class="leftside-head">
         <a href="./index.html"
@@ -20,15 +21,16 @@
           id="input-left"
           type="text"
           placeholder="Search events"
-          class="search__input__left"
+          class="searchInputLeft"
         />
         <input
           type="text"
           placeholder="Mountain View, CA"
-          class="search__input__right"
+          class="searchInputRight"
         />
         <img src="./img/search.svg" alt="" class="search__svg" />
       </div>
+      <!-- не стыкуется ниже -->
       <div class="rightside-head">
         <div class="logo-small">
           <a href="./index.html"
@@ -54,36 +56,312 @@
             English</a
           >
           <a href="#">Login</a>
-          <button class="btn__header button">Sign Up</button>
+          <button class="btnHeader button">Sign Up</button>
         </div>
       </div>
     </header>
-
+    <!-- блок с велосипедом -->
     <div class="container">
       <section>
         <div class="headerBox">
-          <div class="headerBox_left">
+          <div class="headerBoxLeft">
             <h2>The people platform—Where interests become friendships</h2>
             <p>
               Whatever your interest, from hiking and reading to networking and
               skill sharing, there are thousands of people who share it on
               Meetup. Events are happening every day—sign up to join the fun.
             </p>
-            <a href=""
-              ><button class="header_Box_Btn button">Join Meetup</button></a
+            <a href="./events.html"
+              ><button class="headerBoxBtn button">Join Meetup</button></a
             >
           </div>
-          <div class="headerBox_right">
+          <div class="headerBoxRight">
             <img src="img/vehicle.png" alt="" />
           </div>
         </div>
       </section>
-
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <!-- маленький блок под велосипедом -->
+      <section>
+        <div class="eventsHeader">
+          <div class="eventsHeaderLeftSide">
+            <h3>Events near</h3>
+            <button class="btnEvents">
+              Mountain View, CA<img src="./img/pen.svg" alt="" />
+            </button>
+          </div>
+          <div class="eventsHeaderRightSide">
+            <button class="btnSeeAll">See all events</button>
+          </div>
+        </div>
+      </section>
+      <!-- блок с гридами -->
+      <section>
+        <div class="eventsBoxContainer">
+          <div class="eventsBoxItem">
+            <img src="./img/grid-1.png" alt="" />
+            <div class="eventsInfo">
+              <ul class="infoItems">
+                <li>
+                  <h4>Day Trading Idea and Strategy</h4>
+                </li>
+                <li>Business (5 km)</li>
+                <li>
+                  <img src="./img/time-icon.svg" alt="" />Mon, Mar 18 · 7:00 PM
+                  PDT
+                </li>
+                <li>
+                  <img src="./img/done.svg" alt="" />1 going
+                  <img src="./img/free.svg" alt="" />Free
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="eventsBoxItem">
+            <img src="./img/grid-2.png" alt="" />
+            <div class="eventsInfo">
+              <ul class="infoItems">
+                <li>
+                  <h4>Let's Talk Networking: JPMorgan Chase in Palo Alto</h4>
+                </li>
+                <li>Business (25 km)</li>
+                <li>
+                  <img src="./img/time-icon.svg" alt="" />Tue, Mar 19 · 5:00 PM
+                  PDT
+                </li>
+                <li>
+                  <img src="./img/done.svg" alt="" />41 going
+                  <img src="./img/free.svg" alt="" />Free
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="eventsBoxItem">
+            <img src="./img/grid-3.png" alt="" />
+            <div class="eventsInfo">
+              <ul class="infoItems">
+                <li>
+                  <h4>
+                    Tech Talks & Quiz: Next- Gen Database Solutions for Emerging
+                    Use Cases
+                  </h4>
+                </li>
+                <li>Technology</li>
+                <li>
+                  <img src="./img/time-icon.svg" alt="" />Wed, Mar 13 · 6:00 PM
+                  PDT
+                </li>
+                <li>
+                  <img src="./img/done.svg" alt="" />40 going
+                  <img src="./img/free.svg" alt="" />Free
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="eventsBoxItem">
+            <img src="./img/grid-4.png" alt="" />
+            <div class="eventsInfo">
+              <ul class="infoItems">
+                <li>
+                  <h4>INFORMS San Francisco Chapter In-Person Event</h4>
+                </li>
+                <li>Health and Wellbeing (50 km)</li>
+                <li>
+                  <img src="./img/time-icon.svg" alt="" />Thu, Mar 28 · 5:00 PM
+                  PDT
+                </li>
+                <li>
+                  <img src="./img/done.svg" alt="" />41 going
+                  <img src="./img/free.svg" alt="" />Free
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="eventsBoxItem">
+            <img src="./img/grid-5.png" alt="" />
+            <div class="eventsInfo">
+              <ul class="infoItems">
+                <li>
+                  <h4>AI Wednesdays - Meet and Greet!</h4>
+                </li>
+                <li>Technology (5 km)</li>
+                <li>
+                  <img src="./img/time-icon.svg" alt="" />Mon, Mar 18 · 7:00 PM
+                  PDT
+                </li>
+                <li>
+                  <img src="./img/done.svg" alt="" />29 going
+                  <img src="./img/free.svg" alt="" />Free
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="eventsBoxItem">
+            <img src="./img/grid-6.png" alt="" />
+            <div class="eventsInfo">
+              <ul class="infoItems">
+                <li>
+                  <h4>ROS By-The-Bay March 2024</h4>
+                </li>
+                <li>Social Activities</li>
+                <li>
+                  <img src="./img/time-icon.svg" alt="" />Thu, Mar 21 · 6:00 PM
+                  PDT
+                </li>
+                <li>
+                  <img src="./img/done.svg" alt="" />51 going
+                  <img src="./img/free.svg" alt="" />Free
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="eventsBoxItem">
+            <img src="./img/grid-7.png" alt="" />
+            <div class="eventsInfo">
+              <ul class="infoItems">
+                <li>
+                  <h4>Free Christian Singles' Dinner</h4>
+                </li>
+                <li>Hobbies and Passions (10 km)</li>
+                <li>
+                  <img src="./img/time-icon.svg" alt="" />Fri, Mar 29 · 6:00 PM
+                  PDT
+                </li>
+                <li>
+                  <img src="./img/done.svg" alt="" />11 going
+                  <img src="./img/free.svg" alt="" />Free
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="eventsBoxItem">
+            <img src="./img/grid-8.png" alt="" />
+            <div class="eventsInfo">
+              <ul class="infoItems">
+                <li>
+                  <h4>Day Trading Idea and Strategy</h4>
+                </li>
+                <li>Business (5 km)</li>
+                <li>
+                  <img src="./img/time-icon.svg" alt="" />Mon, Mar 18 · 7:00 PM
+                  PDT
+                </li>
+                <li>
+                  <img src="./img/done.svg" alt="" />1 going
+                  <img src="./img/free.svg" alt="" />Free
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- второй блок с гридами -->
+      <section>тут должна быть ваша реклама</section>
+      <section>
+        <div class="eventsBoxItem">
+          <img src="./img/up-1.png" alt="" />
+          <div class="eventsInfo">
+            <ul class="infoItems">
+              <li>
+                <h4>
+                  Amazing On-Demand 15 Min Interviews with Top Coaches and
+                  Speakers
+                </h4>
+              </li>
+              <li>Business (25 km)</li>
+              <li>
+                <img src="./img/time-icon.svg" alt="" />Thu, Mar 14 · 6:00 PM
+                PDT
+              </li>
+              <li>
+                <img src="./img/done.svg" alt="" />3 going
+                <img src="./img/free.svg" alt="" />Free
+              </li>
+            </ul>
+          </div>
+          <div class="hiddenInfo">
+            <p class="hobbies">Hobbies and Passions</p>
+            <!-- здесь вопрос по коду -->
+          </div>
+        </div>
+        <div class="eventsBoxItem">
+          <img src="./img/up-2.png" alt="" />
+          <div class="eventsInfo">
+            <ul class="infoItems">
+              <li>
+                <h4>Vision Pro Developers Online Meetup</h4>
+              </li>
+              <li>Technology</li>
+              <li>
+                <img src="./img/time-icon.svg" alt="" />Wed, Mar 13 · 7:00 PM
+                PDT
+              </li>
+              <li class="liGap">
+                <img src="./img/done.svg" alt="" />51 going
+                <img src="./img/free.svg" alt="" />Free
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="eventsBoxItem">
+          <img src="./img/up-3.png" alt="" />
+          <div class="eventsInfo">
+            <ul class="infoItems">
+              <li>
+                <h4>Significant Musical Moments</h4>
+              </li>
+              <li>Hobbies and Passions (10 km)</li>
+              <li>
+                <img src="./img/time-icon.svg" alt="" />Wed, Mar 13 · 6:00 PM
+                PDT
+              </li>
+              <li>
+                <img src="./img/done.svg" alt="" />16 going
+                <img src="./img/free.svg" alt="" />Free
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="eventsBoxItem">
+          <img src="./img/up-4.png" alt="" />
+          <div class="eventsInfo">
+            <ul class="infoItems">
+              <li>
+                <h4>FREE Webinar : Introduction to Power BI</h4>
+              </li>
+              <li>Technology</li>
+              <li>
+                <img src="./img/time-icon.svg" alt="" />Thu, Mar 14 · 5:30 PM
+                PDT
+              </li>
+              <li>
+                <img src="./img/done.svg" alt="" />33 going
+                <img src="./img/free.svg" alt="" />Free
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- блок с руками -->
+      <section class="joinMeetup">
+        <div class="joinMeetupContainer"></div>
+        <div class="joinLeftSide"></div>
+        <h3 class="joinTietl">Join Meetup</h3>
+        <p>
+          People use Meetup to meet new people, learn new things, find support,
+          get out of their comfort zones, and pursue their passions, together.
+          Membership is free.
+        </p>
+        <button class="joinMeetupBtn">Sign...</button>
+        <div class="joinRightSide"></div>
+      </section>
+      <section class="categories">
+        <div class="categoriesItem"></div>
+        <div class="categoriesItem"></div>
+        <div class="categoriesItem"></div>
+        <div class="categoriesItem"></div>
+        <div class="categoriesItem"></div>
+        <div class="categoriesItem"></div>
+      </section>
       <section></section>
       <section></section>
       <section></section>

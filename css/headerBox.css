@@ -11,7 +11,7 @@
   text-align: left;
   padding-bottom: 24px;
 }
-.header_Box_Btn {
+.headerBoxBtn {
   margin-top: 24px;
   margin-bottom: 98px;
 }
@@ -32,13 +32,13 @@
   .headerBox h2 {
     text-align: center;
   }
-  .header_Box_btn {
+  .headerBoxBtn {
     display: none;
   }
 }
 
 @media (max-width: 768px) {
-  .headerBox_left {
+  .headerBoxLeft {
     max-width: 750px;
   }
   .headerBox h2 {
@@ -59,11 +59,11 @@
     text-align: center;
     font-size: 30px;
   }
-  .headerBox_left {
+  .headerBoxLeft {
     max-width: 400px;
     padding: 15px;
   }
-  .headerBox_right img {
+  .headerBoxRight img {
     width: 80%;
   }
 }

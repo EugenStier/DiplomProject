@@ -1,0 +1,29 @@
+.evantsheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    margin-top: 24px;
+
+}
+.eventsHeaderLeftside {
+display: flex;
+}
+.btnSeeAll {
+    color: var(--color-btn-blue);
+    border: none;
+    background-color: white;
+    font-weight: bold;
+}
+.btnSeeAll:hover {
+    cursor: pointer
+    text-decoration: unterline;
+    }
+    .btnEvents {
+        width: 239px;
+        background-color: #97cad11f;
+        border: none;
+        color: var(--color-btn-blue);
+        margin-left: 8px;
+        
+    }
